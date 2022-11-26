@@ -101,7 +101,9 @@ def set_up():
     button_multiply.grid(row=2, column=3)
     button_divide.grid(row=1, column=3)
 
-set_up()
-window.mainloop()
+
+if __name__ == "__main__":
+    set_up()
+    window.mainloop()
 
 #complete
